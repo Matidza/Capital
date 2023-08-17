@@ -1,0 +1,7 @@
+cat Filename
+cat > Filename (to create a file)
+cat >> File1 (append File1)
+cat File1 > File2 ( Copy content from file1 to file2)
+cat File1 File2 > File3 (copy content from File1 and 2 to file3)
+this is an append
+cat 

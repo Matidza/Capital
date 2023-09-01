@@ -1,3 +1,3 @@
 name = "zwivhuya"
-prit("my name is "; name)
+print("my name is ", name)
 

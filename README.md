@@ -12,4 +12,6 @@ This Repo is a representation  of what the  roadmap to bacome a SE
   * Return: Always return 0 (success)
 **/
 
+NB:
+
 Throughout the entire roadmap, focus on continuous learning, and stay up-to-date with industry trends and best practices. Engage with open-source projects and participate in coding challenges and hackathons to gain practical experience. Networking with other developers and contributing to the software development community can also be beneficial for your growth as a software engineer. Good luck on your journey!

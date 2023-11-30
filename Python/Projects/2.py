@@ -49,12 +49,15 @@ print(sep="")
 
 #4
 print("Fourth pro")
+import random
+
 number = 1
 while number <= 50:
-    num =  random.randint(1,50)
-    if num in number <=25:
+    num = random.randint(1, 50)
+    if num <= 25:
         print(f"{num} is less than 25.")
+        break
     else:
-        print(f"num is greater than 25.")
-    print(num)
+        print(f"{num} is greater than 25.")
+        break
     number += 1

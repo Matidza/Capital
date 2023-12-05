@@ -1,0 +1,2 @@
+wanga = interval()
+print(wanga)

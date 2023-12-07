@@ -1,0 +1,5 @@
+st =  set()
+print(st)
+st.add("zwivhuya")
+st.add(set("Zwivhuya": "Mukwevho"))
+print(st)

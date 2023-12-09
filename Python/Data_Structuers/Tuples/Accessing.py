@@ -14,3 +14,10 @@ print(data[:4])
 for i in data:
     print(i)
 
+print(f"\"Zwivhuya\"" in data)
+
+
+print(data)
+
+lst = list(data)
+print(lst)

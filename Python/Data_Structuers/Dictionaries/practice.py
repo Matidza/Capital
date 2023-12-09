@@ -9,6 +9,7 @@ dic['name'] = "Rex"
 dic["clour"] = "White-silver"
 dic["legs"] = "age"
 print(dic)
+print("colour" in dic)
 
 #new dictonary
 info = {
@@ -37,4 +38,3 @@ print(dic.items())
 
 info.popitem()
 print(info)
-del dic

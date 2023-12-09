@@ -1,5 +1,9 @@
 st =  set()
 print(st)
 st.add("zwivhuya")
-st.add(set("Zwivhuya": "Mukwevho"))
+#st.add("Zwivhuya", "Mukwevho")
+print(st)
+
+hey = {"what"}
+st.update(hey)
 print(st)

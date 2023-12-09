@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 import subprocess
 
 def git_auto_push(commit_message):

@@ -6,6 +6,10 @@ students = {
     "Ron": "Gryffindor",
     "Draco": "Slytherin",
 }
+stud = {"Zwivhuya": "Mukwevho"}
 
+print(stud)
 for student in students:
     print(student, students[student], sep=", ")
+
+

@@ -60,4 +60,4 @@ while number <= 50:
     else:
         print(f"{num} is greater than 25.")
         break
-    number += 1  
+    number += 1

@@ -33,11 +33,21 @@ square(4)
 
 def what(n):
     list = []
-    for i in range(1, 5):
+    for i in range(n):
+        i += 1
         b = print(i)
     return b
 
+what(int(input("What is n: ")))
 
-what(7)
 
-    
+def what(n):
+    list = []
+    for i in range(n):
+        a = {"wanga", "mukona"}
+        b = list.append(a)
+        i += 1
+    b = print(list)
+    return b
+
+what(int(input("What is n: "))) 

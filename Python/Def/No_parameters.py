@@ -27,3 +27,9 @@ def sum():
     add = num1 + num2
     return add
 print(sum())
+
+list = []
+for i in range(1,6):
+    i = list.append("meow")
+
+print(list)

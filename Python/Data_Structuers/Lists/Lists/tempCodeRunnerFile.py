@@ -1,3 +1,3 @@
-a = [ 1, 2.3,4]
-a.append(5)
-len(a)
+string = input("Enter elements (Space-Seperated): ")
+lst = string.split()
+print("the list is: ", lst)

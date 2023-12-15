@@ -1,6 +1,21 @@
+#syntax 
+try:
+    code 
+    code 
+except:
+    code 
+    code 
+else:
+    code 
+    code 
+finally:
+    code 
+    code 
+
+
 def name(name = "A", Year_born = "B"):
     try:
-        A = str(input("Name: ")).strip()
+        A = input("Name: ").strip()
         B = int(input("Year born: "))
         Age = 2023 - B
     except TypeError:

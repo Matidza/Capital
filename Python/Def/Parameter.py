@@ -17,7 +17,7 @@ print(add(80))
 def g(name):
     message = name + ', Ok'
     return message
-print(g('zwivhuy'))
+print(g('zwivhuya'))
 
 
 def greet(name):
@@ -25,20 +25,23 @@ def greet(name):
     return message
 greet('Thando')
 
+
+
 def square(x):
     x = int(input("what is x: "))
     sq = print(x*x)
     return sq
 square(4)
 
+
 def what(n):
     list = []
     for i in range(n):
         i += 1
-        b = print(i)
-    return b
+    b = list.append(print(i))
+    return print(list)
 
-what(int(input("What is n: ")))
+what(n=int(input("What is n: ")))
 
 
 def what(n):

@@ -1,10 +1,11 @@
 class info:
-    def __init__(self,name, surname, age, skills= 'b', address= 'a'):
+    def __init__(self,name, surname, age, skills , address):
         self.name = name
         self.surname = surname
         self.age = age
-        self.skills = skills
-        self.address = address
+        self.skills = skills 
+        self.address = address 
+    def full(self):
         try:
             b = ["Python", "Bash", "Java Script", "Django"]
             a = {
@@ -13,12 +14,10 @@ class info:
                 "Province: ": "Limpopo", "Country: ": "South Africa",
                 "Zip code: ": "0920",
             }
-            return f"Info: {name} + ' ' + {surname}\n {age} \n{skills} \n {address}"
+            self.skills = b
+            self.address = a
+            return print(f"Info: {self.name} {self.surname}\n {self.age}\n{self.skills}  {self.address}")
         except:
             print("Thats a mouth full")
-person = info("zwivhuya", "Mukwevho", "26", )
-print(person.name)
-print(person.surname)
-print(person.age)
-print(person.skills)
-print(person.address)
+person = info("zwivhuya", "Mukwevho", "26",  )
+print(person.full())

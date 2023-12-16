@@ -1,24 +1,12 @@
 class info:
-    def __init__(self,name, surname, age, skills= 'b', address= 'a'):
+    def __init__(self, name= "zwivhuya", last= "Mukwevho", age= "26"):
         self.name = name
-        self.surname = surname
+        self.last = last
         self.age = age
-        self.skills = skills
-        self.address = address
-        try:
-            b = ["Python", "Bash", "Java Script", "Django"]
-            a = {
-                "street: ": "Rixile strt", "House: ": "No: 2002", 
-                "Surbub: ": "Tshikota Location", "Town: ": "Makhado",
-                "Province: ": "Limpopo", "Country: ": "South Africa",
-                "Zip code: ": "0920",
-            }
-            return f"Info: {name} + ' ' + {surname}\n {age} \n{skills} \n {address}"
-        except:
-            print("Thats a mouth full")
-person = info("zwivhuya", "Mukwevho", "26", )
-print(person.name)
-print(person.surname)
-print(person.age)
-print(person.skills)
-print(person.address)
+    def person(self):
+        return  f"{self.name} {self.last} is {self.age} years old"
+    
+p = info()
+print(p.person())
+p1 = info("wanga", "Mukwevho" ,"23")
+print(p1.person())

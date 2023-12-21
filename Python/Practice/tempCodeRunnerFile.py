@@ -1,11 +1,17 @@
-def  info(name= "a", surname= "b"):
-    try:
-        a = str(input("Name: "))
-        b = str(input("Surname"))
-        full_info = str(a + " " b)
-    except NameError:
-        print("Name entered is not a string")
-    else:
-        return print(full_info)
+#!/usr/bin/python3
 
-info() 
+class square:
+    def __init__(self, size= 0):
+        self.size = size
+        try:
+            if not isinstance(size, int):
+        except TypeError:
+            print("size must be an integer")
+        
+        try:
+            if size < 0:
+        except ValueError:
+            print("size must be >= 0")
+
+p = square()
+print(square())

@@ -23,3 +23,18 @@ p = info()
 print(p.person())
 p1 = info("wanga", "Mukwevho" ,"23")
 print(p1.person())
+
+# Object Default Methods
+
+
+
+class info:
+    def __init__(self, name= input("What is your name: "), last= input("Last name: "), age= "20"):
+        self.name = name
+        self.last = last
+        self.age = age
+    def person(self):
+        return  f"\n{self.name} {self.last} is {self.age} years old"
+
+p = info()
+print(p.person())

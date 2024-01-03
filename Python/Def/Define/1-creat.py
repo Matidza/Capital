@@ -4,12 +4,12 @@
 #No: 1
 #syntax
 # declaring a function
-def main():
-    code goes here
-    code goes here
-    code goes herer
+#def main():
+#    code goes here
+#    code goes here
+#    code goes herer
 # calling the function
-main()
+#main()
 
 #Examples
 #Functions without Parametaers

@@ -20,7 +20,7 @@ print(f"\n{sum(2, 7)}")
 
 # No:3
 def weight(mass, gravity):
-    weight = str(int(mass) * int(gravity)) +" N"
+    weight = str(int(mass * gravity)) +" N"
     return print(weight)
 weight(60, 9.8)
 

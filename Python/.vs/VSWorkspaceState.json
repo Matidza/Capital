@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data_Structuers",
+    "\\Data_Structuers\\Lists",
+    "\\Data_Structuers\\Lists\\Lists",
+    "\\Def",
+    "\\Def\\Define"
   ],
+  "SelectedNode": "\\Data_Structuers\\Lists\\Lists\\1-list.py",
   "PreviewInSolutionExplorer": false
 }

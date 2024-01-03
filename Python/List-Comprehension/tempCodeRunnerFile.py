@@ -1,2 +1,2 @@
-add = lambda a, b: a + b
-print(add(2, 6))
+odd = [i for i in range(21) if i % 2 != 0]
+print(odd)

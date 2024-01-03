@@ -14,7 +14,7 @@ class P:
         else:
             self.__x = x
 p1 = P(1001)
-p1.x()
+p1.x
 
 
 # Define a class

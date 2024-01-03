@@ -54,3 +54,4 @@ def update():
     dick = input({12: "where", 77: 'seven',})
     set1.update(dick)
     print(set1)
+

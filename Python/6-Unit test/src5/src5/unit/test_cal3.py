@@ -13,6 +13,8 @@ def test_cal():
         assert square(3) == 9
     except AssertionError:
         print("3 squared was not 9")
+
+    # Add addtional tests numbers
     try:
         assert square(-2) == 9
     except AssertionError:

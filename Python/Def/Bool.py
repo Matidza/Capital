@@ -1,5 +1,7 @@
 def even():
-    x = int(input("What is x: "))
+    x = x(input("What is x: "))
+
+def x():    
     if is_even(x):
         print("X is even.")
     else:
@@ -11,4 +13,5 @@ def is_even(n):
     else:
         return False
     
-even()
+if __name__ == "__even()__":
+    even()

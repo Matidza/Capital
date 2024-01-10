@@ -19,5 +19,5 @@ class info:
             return print(f"Info: {self.name} {self.surname}\n {self.age}\n{self.skills}  {self.address}")
         except:
             print("Thats a mouth full")
-person = info("zwivhuya", "Mukwevho", "26",  )
+person = info("zwivhuya", "Mukwevho", "26", {self.skills}  )
 print(person.full())

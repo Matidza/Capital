@@ -10,6 +10,7 @@ class person:
 info = person("Zwivhuya", "Nukwevho", "26")
 print(info.person_info())
 
+"""    """
 # Object Default Methods
 class info:
     def __init__(self, name= "zwivhuya", last= "Mukwevho", age= "26"):
@@ -24,10 +25,8 @@ print(p.person())
 p1 = info("wanga", "Mukwevho" ,"23")
 print(p1.person())
 
+
 # Object Default Methods
-
-
-
 class info:
     def __init__(self, name= input("What is your name: "), last= input("Last name: "), age= "20"):
         self.name = name

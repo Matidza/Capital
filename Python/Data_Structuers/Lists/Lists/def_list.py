@@ -1,2 +1,0 @@
-wanga = interval()
-print(wanga)

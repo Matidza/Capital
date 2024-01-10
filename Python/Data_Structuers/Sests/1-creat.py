@@ -2,7 +2,7 @@
 ### Getting Set's Length
 
 zar = {"What", "Break", "Full", "What-ever",
-    'banana', 'orange', 'mango', 'lemon'}
+    'banana', 'orange', 'mango', 'what'}
 
 print(zar)
 print(f"The length of the set is: {len(zar)}(8 values)")

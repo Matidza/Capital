@@ -1,31 +1,48 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "script",
-			"scriptType": "python",
-			"path": "Python/6-Unit test/src5/src5/unit/",
-			"fileName": "calculator.py",
-			"scriptFile": true,
-			"script": "py",
-			"target": "py",
-			"uri": {
-				"$mid": 1,
-				"fsPath": "c:\\Capital\\Python\\6-Unit test\\src5\\src5\\unit\\calculator.py",
-				"_sep": 1,
-				"external": "file:///c%3A/Capital/Python/6-Unit%20test/src5/src5/unit/calculator.py",
-				"path": "/c:/Capital/Python/6-Unit test/src5/src5/unit/calculator.py",
-				"scheme": "file"
-			},
-			"takesArgs": false,
-			"problemMatcher": [
-				"$msCompile"
-			],
-			"label": "python: calculator.py",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "script",
+      "scriptType": "python",
+      "path": "Python/6-Unit test/src5/src5/unit/",
+      "fileName": "calculator.py",
+      "scriptFile": true,
+      "script": "py",
+      "target": "py",
+      "uri": {
+        "$mid": 1,
+        "fsPath": "c:\\Capital\\Python\\6-Unit test\\src5\\src5\\unit\\calculator.py",
+        "_sep": 1,
+        "external": "file:///c%3A/Capital/Python/6-Unit%20test/src5/src5/unit/calculator.py",
+        "path": "/c:/Capital/Python/6-Unit test/src5/src5/unit/calculator.py",
+        "scheme": "file"
+      },
+      "takesArgs": false,
+      "problemMatcher": ["$msCompile"],
+      "label": "python: calculator.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "docker-build",
+      "label": "docker-build",
+      "platform": "python",
+      "dockerBuild": {
+        "tag": "capital:latest",
+        "dockerfile": "${workspaceFolder}/Dockerfile",
+        "context": "${workspaceFolder}",
+        "pull": true
+      }
+    },
+    {
+      "type": "docker-run",
+      "label": "docker-run: debug",
+      "dependsOn": ["docker-build"],
+      "python": {
+        "file": "Python\\Projects\\Python Bacics\\Student-Card.py"
+      }
+    }
+  ]
 }
